@@ -2,8 +2,7 @@
   "name": "gridsome-plugin-seo",
   "version": "0.1.0",
   "description": "A SEO plugin for Gridsome",
-  "main": "dist/gridsome.server.js",
-  "files": ["dist/"],
+  "main": "gridsome.server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,17 +22,7 @@
     "url": "https://github.com/wyattis/gridsome-plugin-seo/issues"
   },
   "homepage": "https://github.com/wyattis/gridsome-plugin-seo#readme",
-  "devDependencies": {
-    "@types/chai": "^4.2.12",
-    "@types/mocha": "^8.0.2",
-    "chai": "^4.2.0",
-    "core-js": "^3.6.5",
-    "mocha": "^8.1.1",
-    "ts-node": "^8.10.2",
-    "tslint": "^6.1.3",
-    "tslint-config-standard": "^9.0.0",
-    "typescript": "^3.9.7",
-    "vue": "^2.6.11",
-    "vue-meta": "^2.4.0"
+  "dependencies": {
+    "nuxt-seo": "^1.3.1"
   }
 }
