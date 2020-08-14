@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/wyattis/gridsome-plugin-seo#readme",
   "dependencies": {
+    "lodash": "^4.17.20",
     "nuxt-seo": "^1.3.1"
   }
 }

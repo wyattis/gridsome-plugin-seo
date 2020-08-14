@@ -1,4 +1,12 @@
 import { createMeta, template } from 'nuxt-seo'
+import { merge } from 'lodash'
+
+// add missing templates
+template = merge(template, {
+	twitter: {
+		image: {content: true}
+	}
+})
 
 export default function (Vue, defaultOptions, context) {
   Vue.mixin({
