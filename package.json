@@ -11,7 +11,7 @@
     "url": "git+https://github.com/wyattis/gridsome-plugin-seo.git"
   },
   "keywords": [
-    "gridsome",
+    "gridsome-plugin",
     "seo",
     "opengraph",
     "twitter"
