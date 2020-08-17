@@ -24,6 +24,7 @@ module.exports = {
 export default {
   metaInfo () {
     return this.$seo({
+      title: 'My page', // Uses the titleTemplate in Gridsome config
       description: 'My description',
       keywords: 'one,two',
       openGraph: {
@@ -33,7 +34,9 @@ export default {
       twitter: {
         title: 'My site',
         type: 'summary'
-      }
+      },
+      link: [],   // any links
+      script: []  // any scripts
     })
   }
 }
@@ -42,6 +45,6 @@ export default {
 ```
 
 ## Options
-All available options in [Nuxt-SEO docs](https://github.com/TiagoDanin/Nuxt-SEO#module-options) are supported and additionally the Twitter image tag and canonical url.
+All available options in [Nuxt-SEO docs](https://github.com/TiagoDanin/Nuxt-SEO#module-options) are supported.
 
 See the [available schema](https://github.com/TiagoDanin/Nuxt-SEO/blob/de832e109afc0af7af59440ca4850794063cc972/lib/module.js#L17).

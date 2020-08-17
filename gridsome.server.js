@@ -1,4 +1,4 @@
-const { defaults, template } = require('nuxt-seo')
+const { defaults } = require('nuxt-seo')
 module.exports = function (api, options) {
   // console.log('gridsome-plugin-seo', options, template)
 }
