@@ -1,7 +1,6 @@
 import { createMeta, template } from 'nuxt-seo'
 import { merge } from 'lodash'
 
-console.log('template', template)
 // add missing templates
 const allMeta = merge(template, {
 	twitter: {
