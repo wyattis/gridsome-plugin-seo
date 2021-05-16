@@ -1,6 +1,6 @@
 {
   "name": "gridsome-plugin-seo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A SEO plugin for Gridsome",
   "main": "gridsome.server.js",
   "scripts": {
